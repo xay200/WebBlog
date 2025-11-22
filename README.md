@@ -60,11 +60,11 @@ npm run dev
 Chạy lệnh sau
 - Restore toàn bộ database
 ```bash
-mongorestore --db BlogApp ./backup/BlogApp
+mongorestore --db BlogApp ./22810310352_WebBlog/BlogApp
 ```
 - Database BlogApp đã tồn tại
 ```bash
-mongorestore --drop --db BlogApp ./backup/BlogApp
+mongorestore --drop --db BlogApp ./22810310352_WebBlog/BlogApp
 ```
 ### 4.5 Cấu hình file .env
 #### Backend
