@@ -71,17 +71,17 @@ mongorestore --drop --db BlogApp ./backup/BlogApp
 ```bash
 PORT=3000
 FRONTEND_URL='http://localhost:5173'
-MONGODB_CONN=""
-JWT_SECRET=""
+MONGODB_CONN="mongodb://localhost:27017"
+JWT_SECRET="mysecsflslfklkfskrfjridfsklfmjsefdn"
 NODE_ENV="development"
-CLOUDINARY_APP_NAME=""
-CLOUDINARY_APP_KEY=""
-CLOUDINARY_APP_SECRET=""
+CLOUDINARY_APP_NAME="djzuu9mk0"
+CLOUDINARY_APP_KEY="499314463825778"
+CLOUDINARY_APP_SECRET="Wis5AX1C8XS0M6wlKGSMq-q7xhw"
 ```
 #### Frontend
 ```bash
 VITE_API_BASE_URL="http://localhost:3000/api"
-VITE_FIREBASE_API=""
+VITE_FIREBASE_API="AIzaSyCc2gyWKj2Mh5eYI_omiU6sJN_-XPPiKhk"
 ```
 ## 5 Tài khoản demo để đăng nhập
 ```bash
