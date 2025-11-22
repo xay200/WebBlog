@@ -95,10 +95,11 @@ Username: user1@gmail.com
 Password: 12345678
 ```
 ## 6 Hình ảnh minh họa giao diện
-![Hinh anh 01](Screenshots/TrangChu.png)
-![Hinh anh 02](Screenshots/TrangQuanLyBlog.png)
-![Hinh anh 03](Screenshots/TrangBlog.png)
-![Hinh anh 04](Screenshots/TrangChinhSuaBlog.png)
-![Hinh anh 05](Screenshots/TrangTaoBlog.png)
+![Hinh anh 01](Screenshots/TrangDangNhap.png)
+![Hinh anh 02](Screenshots/TrangChu.png)
+![Hinh anh 03](Screenshots/TrangQuanLyBlog.png)
+![Hinh anh 04](Screenshots/TrangBlog.png)
+![Hinh anh 05](Screenshots/TrangChinhSuaBlog.png)
+![Hinh anh 06](Screenshots/TrangTaoBlog.png)
 ## 7 Video demo
 
