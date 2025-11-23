@@ -102,4 +102,4 @@ Password: 12345678
 ![Hinh anh 05](Screenshots/TrangChinhSuaBlog.png)
 ![Hinh anh 06](Screenshots/TrangTaoBlog.png)
 ## 7 Video demo
-
+https://youtu.be/cL2_cgHGmX4
