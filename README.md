@@ -155,16 +155,16 @@ sudo fail2ban-client status mern-login-jail
 ```
 #### 
 ## 7 Hình ảnh demo kết quả
-- Hình ảnh 01 - Burp suite tẫn công
-![Hinh anh 01 - Burp suite tẫn công](Screenshots/TrangDangNhap.png)
+- Hình ảnh 01 - Burp suite tấn công
+![Hinh anh 01 - Burp suite tẫn công](Screenshots/TanCongBruteForce.png)
 - Hình ảnh 02 - Chặn thành công bằng Fail2ban
-![Hinh anh 02 - Chặn thành công bằng Fail2ban](Screenshots/TrangChu.png)
+![Hinh anh 02 - Chặn thành công bằng Fail2ban](Screenshots/ChanThanhCongFail2ban.png)
 Hình ảnh 03 - IP tấn công bị đưa vào danh sách ban
-![Hinh anh 03 - IP tấn công bị đưa vào danh sách ban](Screenshots/TrangQuanLyBlog.png)
+![Hinh anh 03 - IP tấn công bị đưa vào danh sách ban](Screenshots/DanhSachBan.png)
 Hình ảnh 04 - Chặn thành công bằng middleware
-![Hinh anh 04 - Chặn thành công bằng middleware](Screenshots/TrangBlog.png)
+![Hinh anh 04 - Chặn thành công bằng middleware](Screenshots/BanRateLimit.png)
 Hình ảnh 05 - Middleware hiển thị log đã chặn
-![Hinh anh 05 - Middleware hiển thị log đã chặn](Screenshots/TrangChinhSuaBlog.png)
+![Hinh anh 05 - Middleware hiển thị log đã chặn](Screenshots/BanRateLimitConsole.png.png)
 
 ## 7 Video demo
 https://youtu.be/cL2_cgHGmX4
