@@ -1,4 +1,4 @@
-# BlogApp
+# BlogApp - PHÁT HIỆN VÀ NGĂN CHẶN TẤN CÔNG BRUTE-FORCE
 ## 1 Giới thiệu đề tài
 Tấn công Brute Force là một trong những hình thức tấn công phổ biến nhằm dò đoán mật khẩu bằng cách thử nhiều tổ hợp đăng nhập liên tục. Nếu không có cơ chế phòng vệ phù hợp, hệ thống có thể bị chiếm quyền truy cập, rò rỉ dữ liệu hoặc gián đoạn dịch vụ.
 Đề tài này tập trung vào việc mô phỏng, phát hiện và ngăn chặn tấn công brute force trên hệ thống web, kết hợp giữa ghi log, phân tích hành vi đăng nhập và cơ chế phòng thủ tự động.
@@ -167,4 +167,4 @@ Hình ảnh 05 - Middleware hiển thị log đã chặn
 ![Hinh anh 05 - Middleware hiển thị log đã chặn](Screenshots/BanRateLimitConsole.png)
 
 ## 7 Video demo
-https://youtu.be/cL2_cgHGmX4
+https://youtu.be/eTuVPBC2_zg
