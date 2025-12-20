@@ -164,7 +164,7 @@ Hình ảnh 03 - IP tấn công bị đưa vào danh sách ban
 Hình ảnh 04 - Chặn thành công bằng middleware
 ![Hinh anh 04 - Chặn thành công bằng middleware](Screenshots/BanRateLimit.png)
 Hình ảnh 05 - Middleware hiển thị log đã chặn
-![Hinh anh 05 - Middleware hiển thị log đã chặn](Screenshots/BanRateLimitConsole.png.png)
+![Hinh anh 05 - Middleware hiển thị log đã chặn](Screenshots/BanRateLimitConsole.png)
 
 ## 7 Video demo
 https://youtu.be/cL2_cgHGmX4
