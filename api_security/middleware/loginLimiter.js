@@ -25,14 +25,11 @@ export const loginLimiter = (req, res, next) => {
   if (ip && ip.toString().includes('::ffff:')) {
     ip = ip.toString().replace('::ffff:', '');
   }
-
   const now = Date.now();
-
   if (!ipRequestMap.has(ip)) {
     ipRequestMap.set(ip, { count: 1, startTime: now });
     return next();
   }
-
   const data = ipRequestMap.get(ip);
 
   if (now - data.startTime > WINDOW_MS) {
@@ -43,14 +40,11 @@ export const loginLimiter = (req, res, next) => {
   }
 
   data.count += 1;
-
+  
   if (data.count > MAX_ATTEMPTS) {
     const timeLeft = Math.ceil((WINDOW_MS - (now - data.startTime)) / 1000);
-    
     console.log(`\x1b[33m[RATE LIMIT BANNED] IP: ${ip} blocked! Reason: Too many attempts (${data.count}/${MAX_ATTEMPTS}). Retry in ${timeLeft}s.\x1b[0m`);
-    
     return next(handleError(429, `Too many login attempts. Please try again in ${timeLeft} seconds.`));
   }
-
   next();
 };
